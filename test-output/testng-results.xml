@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-22T15:40:56Z" name="SwagLabs Automation Suite" finished-at="2021-05-22T15:41:11Z" duration-ms="15484">
+    <groups>
+    </groups>
+    <test started-at="2021-05-22T15:40:56Z" name="Automation_Test" finished-at="2021-05-22T15:41:11Z" duration-ms="15484">
+      <class name="com.tests.LoginTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:40:56Z" name="initialization" finished-at="2021-05-22T15:41:05Z" duration-ms="8930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="Login_Test_TC1_2_3(java.lang.String)[pri:0, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:05Z" name="Login_Test_TC1_2_3" data-provider="loginUsername" finished-at="2021-05-22T15:41:06Z" duration-ms="1760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_TC1_2_3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:06Z" name="tearDown" finished-at="2021-05-22T15:41:06Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_TC1_2_3 status=SUCCESS method=LoginTest.Login_Test_TC1_2_3(java.lang.String)[pri:0, instance:com.tests.LoginTest@68e5eea7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Login_Test_TC8()[pri:1, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:06Z" name="Login_Test_TC8" finished-at="2021-05-22T15:41:07Z" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_TC8 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:07Z" name="tearDown" finished-at="2021-05-22T15:41:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_TC8 status=SUCCESS method=LoginTest.Login_Test_TC8()[pri:1, instance:com.tests.LoginTest@68e5eea7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Login_Test_TC4()[pri:2, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:07Z" name="Login_Test_TC4" finished-at="2021-05-22T15:41:08Z" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_TC4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:08Z" name="tearDown" finished-at="2021-05-22T15:41:08Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_TC4 status=SUCCESS method=LoginTest.Login_Test_TC4()[pri:2, instance:com.tests.LoginTest@68e5eea7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Login_Test_TC9()[pri:3, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:08Z" name="Login_Test_TC9" finished-at="2021-05-22T15:41:08Z" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_TC9 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:08Z" name="tearDown" finished-at="2021-05-22T15:41:08Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_TC9 status=SUCCESS method=LoginTest.Login_Test_TC9()[pri:3, instance:com.tests.LoginTest@68e5eea7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Login_Test_TC16(java.lang.String)[pri:4, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:08Z" name="Login_Test_TC16" data-provider="loginUsername" finished-at="2021-05-22T15:41:09Z" duration-ms="625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_TC16 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:09Z" name="tearDown" finished-at="2021-05-22T15:41:09Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_TC16 status=SUCCESS method=LoginTest.Login_Test_TC16(java.lang.String)[pri:4, instance:com.tests.LoginTest@68e5eea7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.tests.LoginTest@68e5eea7]" started-at="2021-05-22T15:41:09Z" name="quit" finished-at="2021-05-22T15:41:11Z" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- Automation_Test -->
+  </suite> <!-- SwagLabs Automation Suite -->
+</testng-results>

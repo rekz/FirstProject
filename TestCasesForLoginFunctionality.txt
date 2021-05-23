@@ -1,0 +1,24 @@
+Testcases to verify the Login functionality for https://www.saucedemo.com website
+
+TC_1_Verify if two fields for Username and Password is displayed
+TC_2_Verify the LOGIN button is present
+TC_3_Verify if a user will be able to login with a valid username and valid password.
+TC_4_Verify "Epic sadface: Username and password do not match any user in this service messages" for invalid login.
+TC_5_Verify that the User is not able to Login with an invalid Username and invalid Password
+TC_6_Verify that the User is not able to Login with a Valid Username and invalid Password
+TC_7_Verify that the User is not able to log in with an invalid Username and Valid Password
+TC_8_Verify the Error message "Epic sadface: Username is required" is displayed when user clicks on LOGIN button without entering  Username and Password
+TC_9_Verify if the data in password field is either visible as asterisk or bullet signs.
+TC_10_Verify if the login page allows to log in simultaneously with different credentials in a different browser.
+TC_11_Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.
+TC_12_Verify the time taken to log in with a valid username and password.
+TC_13_Verify if the font, text color, and color coding of the Login page is as per the standard.
+TC_14_Verify the login page and all its controls in different browsers
+TC_15_Verify whether all the text boxes have a minimum and maximum length.
+TC_16_Verify that clicking on the browser back button after successful login should take the User to log out mode
+TC_17_Verify that clicking on the browser back button after successful logout should not take the User to a logged-in mode
+TC_18_Verify that there is a limit on the total number of unsuccessful login attempts
+TC_19_After logout if user clicks on back button user should not be able to login within same session, it should redirect to login page
+TC_20_Verify the error messages are closed when user clicks on X symbol on the error message box
+TC_21_Verify "Epic sadface: Password is required" is displayed when user enters only Username and clicks on LOGIN
+TC_22_Verify clicking on X mark on error message, removes the X mark on both Username and Password fields
